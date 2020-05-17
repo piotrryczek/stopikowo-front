@@ -2,7 +2,7 @@ name: Node CI
 
 on:
   push:
-    branches: [development, staging. master]
+    branches: [development, staging, master]
   pull_request:
     branches: [development, staging, master]
 
