@@ -24,7 +24,7 @@ jobs:
       - name: Eslint
         run: yarn lint
       - name: Tests
-        run: yarn test --exit
+        run: yarn test
         env:
           SKIP_PREFLIGHT_CHECK: true
       - name: Build production
