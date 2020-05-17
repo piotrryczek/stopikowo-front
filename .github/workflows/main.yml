@@ -26,4 +26,4 @@ jobs:
       - name: Tests
         run: yarn test --exit
       - name: Build production
-        run: yarn build:prod
+        run: yarn build-cd

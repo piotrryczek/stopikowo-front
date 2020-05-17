@@ -2,7 +2,10 @@ import React from 'react';
 
 const App = () => {
   return (
-    <span>App</span>
+    <span>
+      App
+      {process.env.REACT_APP_API_URL}
+    </span>
   );
 }
 
