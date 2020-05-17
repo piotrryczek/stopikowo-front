@@ -25,5 +25,7 @@ jobs:
         run: yarn lint
       - name: Tests
         run: yarn test --exit
+        env:
+          SKIP_PREFLIGHT_CHECK: true
       - name: Build production
         run: yarn build-cd
