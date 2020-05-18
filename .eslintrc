@@ -12,7 +12,17 @@
     "linebreak-style": 0,
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "max-len": ["error", { "code": 200 }],
-    "import/prefer-default-export": 1
+    "import/prefer-default-export": 1,
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+   ]
   },
   "settings": {
     "import/resolver": {
@@ -23,6 +33,7 @@
     }
   },
   "env": {
-    "browser": true
+    "browser": true,
+    "jest": true
   }
 }
